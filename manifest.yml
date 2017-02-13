@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: demo-ers4-ba-nm
+  host: demo-ers4-ba-nm
+  disk_quota: 1024M
+  services:
+  - demo-ers4-ba-nm-cloudantNoSQLDB
+  - demo-ers4-ba-nm-iotf-service
+  - dashDB for Analytics-mw
